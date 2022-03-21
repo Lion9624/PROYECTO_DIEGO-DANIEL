@@ -1,0 +1,47 @@
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.exe
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.exe.config
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.pdb
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.AssemblyReference.cache
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormIngreso.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPantalla_principal.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormNew_Usuario.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.Properties.Resources.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.GenerateResource.cache
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CoreCompileInputs.cache
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.exe
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.pdb
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPRODUCTOS.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FProvedores.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FFactura.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.exe.config
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.exe
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.pdb
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.AssemblyReference.cache
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FFactura.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FProvedores.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormIngreso.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPantalla_principal.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormNew_Usuario.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPRODUCTOS.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.Properties.Resources.resources
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.GenerateResource.cache
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CoreCompileInputs.cache
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.exe
+C:\Users\SOPORTE\Desktop\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.pdb
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.exe
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.pdb
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.AssemblyReference.cache
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.SuggestedBindingRedirects.cache
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FFactura.resources
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FProvedores.resources
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormIngreso.resources
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPantalla_principal.resources
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormNew_Usuario.resources
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPRODUCTOS.resources
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.Properties.Resources.resources
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.GenerateResource.cache
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CoreCompileInputs.cache
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.exe
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.pdb
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\bin\Debug\Newtonsoft.Json.dll
+D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CopyComplete

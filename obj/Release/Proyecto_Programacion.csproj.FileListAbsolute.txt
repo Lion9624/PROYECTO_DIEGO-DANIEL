@@ -1,0 +1,12 @@
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\bin\Release\Proyecto_Programacion.exe.config
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\bin\Release\Proyecto_Programacion.exe
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\bin\Release\Proyecto_Programacion.pdb
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.csproj.AssemblyReference.cache
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.FormIngreso.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.FormPantalla_principal.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.FormNew_Usuario.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.Properties.Resources.resources
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.csproj.GenerateResource.cache
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.csproj.CoreCompileInputs.cache
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.exe
+C:\Users\SOPORTE\source\repos\Proyecto_Programacion\obj\Release\Proyecto_Programacion.pdb
