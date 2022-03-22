@@ -87,6 +87,7 @@ namespace Proyecto_Programacion
             this.dataGridView_Provedores.Size = new System.Drawing.Size(580, 338);
             this.dataGridView_Provedores.TabIndex = 3;
             this.dataGridView_Provedores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Provedores_CellClick);
+            this.dataGridView_Provedores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Provedores_CellContentClick);
             // 
             // texBBuscar_prov
             // 

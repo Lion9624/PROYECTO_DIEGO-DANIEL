@@ -45,3 +45,21 @@ D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\De
 D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.pdb
 D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\bin\Debug\Newtonsoft.Json.dll
 D:\RESPALDO\UNIVERSIDAD\U 3 SEMESTRE\ALGEBRA LINEAL\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CopyComplete
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.exe
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\bin\Debug\Proyecto_Programacion.pdb
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FFactura.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FProvedores.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FReportes.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormIngreso.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPantalla_principal.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormNew_Usuario.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.FormPRODUCTOS.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.Properties.Resources.resources
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CopyComplete
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.exe
+C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.pdb
