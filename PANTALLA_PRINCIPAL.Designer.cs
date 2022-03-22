@@ -41,6 +41,8 @@ namespace Proyecto_Programacion
             this.butProvedores = new System.Windows.Forms.Button();
             this.butVentas = new System.Windows.Forms.Button();
             this.panelVentana = new System.Windows.Forms.Panel();
+            this.ButReportes = new System.Windows.Forms.Button();
+            this.butLogOut = new System.Windows.Forms.Button();
             this.panelBotones.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,6 +50,8 @@ namespace Proyecto_Programacion
             // 
             this.panelBotones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panelBotones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelBotones.Controls.Add(this.butLogOut);
+            this.panelBotones.Controls.Add(this.ButReportes);
             this.panelBotones.Controls.Add(this.label2);
             this.panelBotones.Controls.Add(this.label1);
             this.panelBotones.Controls.Add(this.labNombre);
@@ -98,7 +102,7 @@ namespace Proyecto_Programacion
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(12, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(137, 82);
+            this.panel1.Size = new System.Drawing.Size(148, 74);
             this.panel1.TabIndex = 6;
             // 
             // butNew_usuario
@@ -106,14 +110,14 @@ namespace Proyecto_Programacion
             this.butNew_usuario.BackColor = System.Drawing.Color.Gray;
             this.butNew_usuario.FlatAppearance.BorderSize = 0;
             this.butNew_usuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butNew_usuario.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butNew_usuario.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butNew_usuario.Image = ((System.Drawing.Image)(resources.GetObject("butNew_usuario.Image")));
             this.butNew_usuario.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.butNew_usuario.Location = new System.Drawing.Point(12, 291);
+            this.butNew_usuario.Location = new System.Drawing.Point(12, 265);
             this.butNew_usuario.Name = "butNew_usuario";
             this.butNew_usuario.Size = new System.Drawing.Size(137, 55);
             this.butNew_usuario.TabIndex = 3;
-            this.butNew_usuario.Text = "Usuario";
+            this.butNew_usuario.Text = "USUARIO";
             this.butNew_usuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.butNew_usuario.UseVisualStyleBackColor = false;
             this.butNew_usuario.Click += new System.EventHandler(this.butNew_usuario_Click);
@@ -126,7 +130,7 @@ namespace Proyecto_Programacion
             this.butSalir.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butSalir.Image = ((System.Drawing.Image)(resources.GetObject("butSalir.Image")));
             this.butSalir.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butSalir.Location = new System.Drawing.Point(12, 437);
+            this.butSalir.Location = new System.Drawing.Point(12, 469);
             this.butSalir.Name = "butSalir";
             this.butSalir.Size = new System.Drawing.Size(137, 55);
             this.butSalir.TabIndex = 5;
@@ -143,7 +147,7 @@ namespace Proyecto_Programacion
             this.butProductos.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butProductos.Image = ((System.Drawing.Image)(resources.GetObject("butProductos.Image")));
             this.butProductos.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.butProductos.Location = new System.Drawing.Point(12, 218);
+            this.butProductos.Location = new System.Drawing.Point(12, 197);
             this.butProductos.Name = "butProductos";
             this.butProductos.Size = new System.Drawing.Size(137, 55);
             this.butProductos.TabIndex = 2;
@@ -160,7 +164,7 @@ namespace Proyecto_Programacion
             this.butProvedores.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butProvedores.Image = ((System.Drawing.Image)(resources.GetObject("butProvedores.Image")));
             this.butProvedores.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.butProvedores.Location = new System.Drawing.Point(12, 364);
+            this.butProvedores.Location = new System.Drawing.Point(12, 401);
             this.butProvedores.Name = "butProvedores";
             this.butProvedores.Size = new System.Drawing.Size(137, 55);
             this.butProvedores.TabIndex = 4;
@@ -177,7 +181,7 @@ namespace Proyecto_Programacion
             this.butVentas.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butVentas.Image = ((System.Drawing.Image)(resources.GetObject("butVentas.Image")));
             this.butVentas.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.butVentas.Location = new System.Drawing.Point(12, 145);
+            this.butVentas.Location = new System.Drawing.Point(12, 129);
             this.butVentas.Name = "butVentas";
             this.butVentas.Size = new System.Drawing.Size(137, 55);
             this.butVentas.TabIndex = 1;
@@ -195,6 +199,33 @@ namespace Proyecto_Programacion
             this.panelVentana.Name = "panelVentana";
             this.panelVentana.Size = new System.Drawing.Size(847, 583);
             this.panelVentana.TabIndex = 0;
+            // 
+            // ButReportes
+            // 
+            this.ButReportes.BackColor = System.Drawing.Color.Gray;
+            this.ButReportes.FlatAppearance.BorderSize = 0;
+            this.ButReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButReportes.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButReportes.Image = ((System.Drawing.Image)(resources.GetObject("ButReportes.Image")));
+            this.ButReportes.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.ButReportes.Location = new System.Drawing.Point(12, 333);
+            this.ButReportes.Name = "ButReportes";
+            this.ButReportes.Size = new System.Drawing.Size(137, 55);
+            this.ButReportes.TabIndex = 10;
+            this.ButReportes.Text = "REPORTES";
+            this.ButReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ButReportes.UseVisualStyleBackColor = false;
+            this.ButReportes.Click += new System.EventHandler(this.ButReportes_Click);
+            // 
+            // butLogOut
+            // 
+            this.butLogOut.Image = ((System.Drawing.Image)(resources.GetObject("butLogOut.Image")));
+            this.butLogOut.Location = new System.Drawing.Point(114, 83);
+            this.butLogOut.Name = "butLogOut";
+            this.butLogOut.Size = new System.Drawing.Size(46, 23);
+            this.butLogOut.TabIndex = 11;
+            this.butLogOut.UseVisualStyleBackColor = true;
+            this.butLogOut.Click += new System.EventHandler(this.butLogOut_Click);
             // 
             // FormPantalla_principal
             // 
@@ -228,5 +259,7 @@ namespace Proyecto_Programacion
         private System.Windows.Forms.Label labNombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button ButReportes;
+        private System.Windows.Forms.Button butLogOut;
     }
 }

@@ -303,5 +303,10 @@ namespace Proyecto_Programacion
         {
 
         }
+
+        private void dataGridView_Provedores_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

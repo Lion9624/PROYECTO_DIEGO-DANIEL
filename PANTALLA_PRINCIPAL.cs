@@ -14,6 +14,7 @@ namespace Proyecto_Programacion
     public partial class FormPantalla_principal : Form
     {
         //CLASES.C_Usuario Objeto_Usuario = new CLASES.C_Usuario();
+        FormIngreso llamado;
         public FormPantalla_principal(/*FormIngreso.datos info*/)
         {
             
@@ -77,6 +78,19 @@ namespace Proyecto_Programacion
         {
             FFactura llamado_facturas = new FFactura();
             abrirFormulario(llamado_facturas);
+        }
+
+        private void ButReportes_Click(object sender, EventArgs e)
+        {
+            FReportes llamado_reporte=new FReportes();
+            abrirFormulario(llamado_reporte);
+        }
+
+        private void butLogOut_Click(object sender, EventArgs e)
+        {
+            llamado = new FormIngreso();
+            llamado.Show();
+            this.Hide();
         }
     }
 }
