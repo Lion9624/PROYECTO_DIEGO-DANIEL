@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
+using System.Drawing.Printing;
 
 namespace Proyecto_Programacion
 {
@@ -344,8 +345,7 @@ namespace Proyecto_Programacion
             texBNombreCliente_F.Clear();
             texBTelCliente_F.Clear();
             texBCorreoCliente_F.Clear();
-            texBDireccionClien_F.Clear();        
-
+            texBDireccionClien_F.Clear();            
         }
 
         private void butActualizar_F_Click(object sender, EventArgs e)
@@ -357,21 +357,16 @@ namespace Proyecto_Programacion
             else
             {
                 MessageBox.Show("debes llenar los campos ");
-            }
-            
+            }            
         }
         public void agrago()
         {
             string id = Obj_Cliente_F.Cedula_C;
-
-
             Obj_Cliente_F.Cedula_C = texBIdentificacionCliente_F.Text;
             Obj_Cliente_F.Nombre_C = texBNombreCliente_F.Text;
             Obj_Cliente_F.Telefono_C = texBTelCliente_F.Text;
             Obj_Cliente_F.Correo_C = texBCorreoCliente_F.Text;
-            Obj_Cliente_F.Dir_C = texBDireccionClien_F.Text;
-
-           
+            Obj_Cliente_F.Dir_C = texBDireccionClien_F.Text;     
 
                 try
                 {
@@ -385,14 +380,13 @@ namespace Proyecto_Programacion
                     comando.Parameters.AddWithValue("p5", Obj_Cliente_F.Dir_C);
                     comando.ExecuteNonQuery();
                     CLASES.Cslquniversal.Cerrar();
-            }
+                }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                     CLASES.Cslquniversal.Cerrar();
-            }
-            MessageBox.Show("datos actualizados");
-            
+                }
+            MessageBox.Show("datos actualizados");            
         }
 
         private void texBCambio_Factura_TextChanged(object sender, EventArgs e)
@@ -403,8 +397,7 @@ namespace Proyecto_Programacion
         private void texBEfectivo_Factura_TextChanged(object sender, EventArgs e)
         {
             try
-            {
-                
+            {                
                 if (texBEfectivo_Factura.Text!="")
                 {
                     texBCambio_Factura.Text = Convert.ToString(Convert.ToInt32(texBEfectivo_Factura.Text) - total);
@@ -418,8 +411,7 @@ namespace Proyecto_Programacion
             {
 
                 MessageBox.Show(ex.Message);
-            }
-            
+            }            
         }
 
         private void texBDescuento_Factura_TextChanged(object sender, EventArgs e)
@@ -454,6 +446,11 @@ namespace Proyecto_Programacion
                                 Act_Producto();
 
                             }
+                            Imprimir = new PrintDocument();
+                            PrinterSettings set = new PrinterSettings();
+                            Imprimir.PrinterSettings = set;
+                            Imprimir.PrintPage += Imprimir_PrintPage;
+                            Imprimir.Print();
                             Num_F++;
                             limpiar();
                             limpiar2();
@@ -463,27 +460,59 @@ namespace Proyecto_Programacion
                         else
                         {
                             MessageBox.Show("Valor ingresado incorrecto ", "MENSAJE DE ALERTA ", MessageBoxButtons.OK);
-                        }
-                       
+                        }                       
                     }
                     else
                     {
                         MessageBox.Show("Ingrese Monto dado", "MENSAJE DE ALERTA ", MessageBoxButtons.OK);
-                    }
-                   
+                    }                   
                 }
                 else
                 {
                     MessageBox.Show("Ingrese la Informacion del cliente ","MENSAJE DE ALERTA ",MessageBoxButtons.OK);
-                }
-               
+                }               
             }
             catch (Exception ex)
             {
 
                 MessageBox.Show(ex.Message);
                 CLASES.Cslquniversal.Cerrar();
+            }           
+
+        }
+
+        private void Imprimir_PrintPage(object sender, PrintPageEventArgs e)
+        {
+            Font fuente = new Font("arial", 12);
+            int ancho = 400;
+            int Y = 20;
+            e.Graphics.DrawString("-------------- Punto de venta --------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString("--------------  LicoTapetusa  --------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString("-------------- Nit: 669696969 --------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString("------------ Calle 55 # 81 sur -------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString("-------------- Tel: 555-89-43 --------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString($"--------------# Factura: {labNUMFACTURA_F.Text} --------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString("------------ Detalle Factura: --------------", fuente, Brushes.Black, new RectangleF(0, Y += 50, ancho, 20));
+            
+            for (int i = 0; i < listViewFACTURA_F.Items.Count; i++)
+            {
+                string variable1 = listViewFACTURA_F.Items[i].SubItems[2].Text;
+                string variable2 = listViewFACTURA_F.Items[i].SubItems[3].Text;
+                string variable3 = listViewFACTURA_F.Items[i].SubItems[5].Text;
+                e.Graphics.DrawString($"{i + 1}"+ " | " + $"{variable1}" + " | " + 
+                    $"{variable2}" + " | " + 
+                    $"{variable3}"
+                    , fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+
             }
+            e.Graphics.DrawString($"------------- Total: {total} -----------", fuente, Brushes.Black, new RectangleF(0, Y += 50, ancho, 20));
+            e.Graphics.DrawString($"--------------Efectivo: {texBEfectivo_Factura.Text}  --------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString($"-------------- Cambio: {texBCambio_Factura.Text}  --------------", fuente, Brushes.Black, new RectangleF(0, Y += 20, ancho, 20));
+            e.Graphics.DrawString("---------- Gracias por su compra -----------", fuente, Brushes.Black, new RectangleF(0, Y += 50, ancho, 20));
+        }
+
+        private void ImprimirFactura()
+        {
             
         }
 
@@ -541,7 +570,6 @@ namespace Proyecto_Programacion
 
                 MessageBox.Show(ex.Message);
             }
-
         }
 
         private void FFactura_Load(object sender, EventArgs e)
@@ -549,9 +577,18 @@ namespace Proyecto_Programacion
 
         }
 
-        public void Agregar_Detalle()
+        private void panelPrincipal_F_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void printDocument1_PrintPage(object sender, PrintPageEventArgs e)
         {
             
+        }
+
+        public void Agregar_Detalle()
+        {            
             try
             {
                 CLASES.Cslquniversal.Abrir();
@@ -569,7 +606,6 @@ namespace Proyecto_Programacion
                 CLASES.Cslquniversal.Cerrar();
                 MessageBox.Show(ex.Message);
             }
-
         }
         public void limpiar2()
         {
@@ -582,7 +618,7 @@ namespace Proyecto_Programacion
             Obj_Cliente_F.Dir_C = "";
             Obj_Cliente_F.Nombre_C = "";
             Obj_Cliente_F.Telefono_C = "";
-
+            total = 0;
         }
         public void Act_Producto()
         {
@@ -614,8 +650,7 @@ namespace Proyecto_Programacion
 
                 MessageBox.Show(ex.Message);
                 CLASES.Cslquniversal.Cerrar();
-            }
-           
+            }           
         }
     }
 }

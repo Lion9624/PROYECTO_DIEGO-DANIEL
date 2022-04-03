@@ -63,3 +63,19 @@ C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\
 C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.csproj.CopyComplete
 C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.exe
 C:\Users\diego\Desktop\RESPALDO PROYECTO\prueba\Proyecto_Programacion\obj\Debug\Proyecto_Programacion.pdb
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\bin\Debug\Proyecto_Programacion.exe
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\bin\Debug\Proyecto_Programacion.pdb
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.csproj.AssemblyReference.cache
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.FFactura.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.FProvedores.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.FReportes.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.FormIngreso.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.FormPantalla_principal.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.FormNew_Usuario.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.FormPRODUCTOS.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.Properties.Resources.resources
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.csproj.GenerateResource.cache
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.csproj.CoreCompileInputs.cache
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.csproj.CopyComplete
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.exe
+C:\Users\57310\Documents\PASCUAL BRAVO\SEMESTRE 4\Herramientas de programacion 3\Proyecto\PROYECTO_DIEGO-DANIEL\obj\Debug\Proyecto_Programacion.pdb
