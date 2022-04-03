@@ -36,7 +36,7 @@ namespace Proyecto_Programacion
             try
             {
                 CLASES.Cslquniversal.Abrir();
-                string consulta = "SELECT * FROM Provedores";
+                string consulta = "SELECT * FROM provedores";
                 SqlCommand comando = new SqlCommand(consulta, CLASES.Cslquniversal.conn);
                 SqlDataAdapter adaptador = new SqlDataAdapter();
                 adaptador.SelectCommand = comando;
